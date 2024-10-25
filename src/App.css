@@ -1,0 +1,23 @@
+
+.bg-con{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.movie-con{
+ width: 300px;
+ box-shadow: 4px 4px black;
+  transition: all 1s ease;
+  
+}
+.movie-con img{
+  width: 100%;
+}
+.movie-con:hover{
+  transform: scale(0.9);
+  box-shadow: 6px 6px rgb(237, 87, 87);
+  background-color:#ebedd4 ;
+  color: #a71666;
+}
